@@ -26,5 +26,16 @@ import works in your Python interpretter:
 If it does, you are ready to call HarfBuzz from Python!  Congratulations.
 See src/sample.py.
 
+These Instructions are confirmed to be working on Mavericks (OSX 10.9.5):
+
+Frist install Homebrew in terminal by typing:
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Then in terminal paste these lines and hit enter:
+brew install python
+brew install freetype glib cairo
+brew install harfbuzz
+brew install pygobject3
+
 The Python API will change.  Let us know on the mailing list if you are
 using it, and send lots of feedback.
